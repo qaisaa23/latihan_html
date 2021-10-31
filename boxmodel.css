@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display reset untuk browser jadul */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* syntax CSS sendiri*/
+
+body{
+    font: 16px/28px Arial, Helvetica, sans-serif;
+    background-image: url(geometric-leaves/geometric-leaves.png);
+    color: #333;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: rgb(42, 42, 42);
+    color: #ffffff;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header ul li{
+    margin-top: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 9px;
+}
+
+.header a:hover{
+    background-color: rgb(255, 233, 237);
+    color: sienna;
+    padding: 9px;
+    border-radius: 9px;
+}
+
+.hero-container{
+    padding: 0 9px 0 9px;
+}
+
+.hero{
+    height: 480px;
+    background-image: url(bgimg1.jpg);
+    background-position: 0 -80px;
+    background-size: cover;
+    border-top: 5px solid lightskyblue;
+    border-bottom: 5px solid red;
+    border-radius: 12%;
+}
+
+.main{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2{
+    font-size: 30px;
+}
+
+.main .penulis{
+    font-size: 11px;
+    margin-top: -5px;
+    margin-bottom: 44px;
+}
+
+.main a{
+    text-decoration: none;
+    color: rgb(235, 120, 67);
+    padding: 2px;
+}
+
+.main a:hover{
+    background-color: sienna;
+    color: #fff;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.main p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3{
+    font-weight:bold;
+    color: #fff;
+}
+
+.sidebar img{
+    height: 70px;
+    width: 70px;
+    float: left;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.sidebar p{
+    background-color: brown;
+    font: 12px/20px arial;
+}
+
+.footer{
+    font-size: 14px;
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    padding: 12px;
+}
+
+.footer .copy{
+    color: rgb(221, 221, 221);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer .copy a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.footer .copy a:hover{
+    color: rgb(235, 120, 67);
+}
+
+
+
+
+/* Clear Fix */
+
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+
+ .cf {
+     *zoom: 1;
+ }

@@ -10,9 +10,17 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo-container"></div>
+            <div class="logo-container">
+                <img src="" alt="">
+            </div>
             <div class="menu-container"></div>
         </div>
+        <div class="content-wrapper">
+            <div class="content"></div>
+            <div class="sidebar"></div>
+        </div>
+        <div class="footer"></div>
     </div>
+    <footer></footer>
 </body>
 </html>

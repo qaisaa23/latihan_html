@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.logo-container {
+    width: 15%;
+    background-color: blueviolet;
+}
+
+.menu-container {
+    width: 85%;
+    background-color: coral;
+}
+
+.logo-container, .menu-container {
+    float: left;
+}
+
+.header, .logo-container, .menu-container {
+    height: 60px;
+}

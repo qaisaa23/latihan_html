@@ -11,9 +11,24 @@
     <div class="container">
         <div class="header">
             <div class="logo-container">
-                <img src="" alt="">
+                <img class="web-logo" src="logo-only.png" alt="logo website">
             </div>
-            <div class="menu-container"></div>
+            <div class="menu-container">
+                <ul class="navigation">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Post</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Kategori</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Kontak</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="content-wrapper">
             <div class="content"></div>

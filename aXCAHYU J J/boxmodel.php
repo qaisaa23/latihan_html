@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
 
    <title>Latihan - Box Model</title>
 </head>
+
 <body>
    <div class="container">
       <div class="header">
@@ -42,8 +44,9 @@
          </div>
       </div>
       <div class="footer">
-         <p class="copy">&copy;&#32;Copyright 2021. | <a href="https://instagram.com/qaissss_" target="blank">Qais Abdul Aziz</a>.</p>
+         <p class="copy">&copy;&nbsp;Copyright 2021. | <a href="https://instagram.com/qaissss_" target="blank">Qais Abdul Aziz</a>.</p>
       </div>
    </div>
 </body>
+
 </html>

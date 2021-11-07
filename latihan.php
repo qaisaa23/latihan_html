@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,9 @@
     <link rel="stylesheet" href="latihan.css">
     <title>Latihan - html tag in php</title>
 </head>
+
 <body>
-    <div class="container">        
+    <div class="container">
         <div class="topbar">
             <a href="#">Home</a>
             <a href="#">About</a>
@@ -22,18 +24,16 @@
             </div>
 
             <div class="sidebar">
-                <h2>widgetH2 Website</h2>
+                <h2>widget Website</h2>
                 <p>Search and click the hotspot</p>
-        <img src = https://wuschools.com/wp-content/uploads/2020/02/map-tag.jpg height="300" width="300" alt = "HTML Map" border = "5" usemap = "#html"/>
-        <!-- Create  Mappings -->
-        
-    <map name = "html">
-        <area shape = "circle" coords = "80,80,20" 
-            href = "/css/index.htm" alt = "CSS Link" target = "_self" />
-        
-        <area shape = "rect" coords = "5,5,40,40" alt = "jQuery Link" 
-            href = "/jquery/index.htm" target = "_self" />
-    </map>
+                <img src=https://wuschools.com/wp-content/uploads/2020/02/map-tag.jpg height="300" width="300" alt="HTML Map" border="5" usemap="#html" />
+                <!-- Create  Mappings -->
+
+                <map name="html">
+                    <area shape="circle" coords="80,80,20" href="/css/index.htm" alt="CSS Link" target="_self" />
+
+                    <area shape="rect" coords="5,5,40,40" alt="jQuery Link" href="/jquery/index.htm" target="_self" />
+                </map>
             </div>
         </div>
         <div class="footer">
@@ -42,4 +42,5 @@
 
     </div>
 </body>
+
 </html>

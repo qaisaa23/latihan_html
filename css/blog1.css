@@ -1,0 +1,145 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(0, 216, 90);
+    height: 70px;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 999;
+}
+
+.header,
+.menu-container {
+    height: 70px;
+}
+
+.logo-container {
+    width: 200px;
+    padding: 5px;
+    height: 60px;
+}
+
+.menu-container {
+    width: calc(100% - 200px - 20px);
+    padding: 0 5px;
+}
+
+.logo-container,
+.menu-container {
+    float: left;
+}
+
+.content-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 70px 10px 0px 10px;
+}
+
+.content-wrapper,
+.content,
+.sidebar {
+    min-height: 300px;
+}
+
+.content,
+.sidebar {
+    float: left;
+}
+
+.content {
+    border-radius: 0 0 10px;
+}
+
+.sidebar {
+    border-radius: 0 0 0 10px;
+}
+
+.content {
+    width: calc(100% - 300px - 10px);
+    background-color: rgb(251, 255, 0);
+    margin-right: 10px;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: rgb(0, 216, 90);
+}
+
+.web-logo {
+    max-width: 100%;
+}
+
+.navigation {
+    float: right;
+    margin-top: 25px;
+}
+
+.menu-item {
+    float: left;
+    list-style: none;
+}
+
+.menu-link {
+    padding: 25.5px 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu-link:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 85, 138);
+}
+
+.footer {
+    /* clear: both; */
+    background-color: rgb(251, 255, 0);
+    height: 60px;
+    width: 100%;
+    padding: 5px 30px 5px 30px;
+}
+
+.footer p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+.cf {
+    *zoom: 1;
+}

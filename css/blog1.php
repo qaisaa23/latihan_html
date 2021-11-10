@@ -13,7 +13,7 @@
     <div class="container">
         <div class="header">
             <div class="logo-container">
-                <img class="web-logo" src="resources/logo-only.png" alt="gambar logo">
+                <img class="web-logo" src="resources/images/logo-only.png" alt="gambar logo">
             </div>
             <div class="menu-container">
                 <ul class="navigation">

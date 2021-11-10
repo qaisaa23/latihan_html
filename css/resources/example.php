@@ -18,10 +18,10 @@
         <div class="menu-mask" onclick="hideMenu()"></div>
         <div class="header">
             <div class="logo-container">
-                <img class="web-logo" src="logo-only.png" alt="logo website">
+                <img class="web-logo" src="images/logo-only.png" alt="logo website">
             </div>
             <div class="menu-container">
-                <a href="#" class="mobile-menu" onclick="showMenu()"><span class="material-icons">menu</span></a>
+                <a href="javascript:void()" class="mobile-menu" onclick="showMenu()"><span class="material-icons">menu</span></a>
                 <ul class="navigation" id="main-menu">
                     <li class="menu-item">
                         <a href="#" class="menu-link">Home</a>
@@ -40,12 +40,31 @@
             </div>
         </div>
         <div class="content-wrapper">
-            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, officia accusantium. Facere, nostrum! Ducimus ut ipsam, laudantium ipsum placeat laboriosam omnis cupiditate, rem modi, quasi dolores repellat a sunt dolorum. Quam dolorem mollitia aliquam perspiciatis consequuntur fugiat excepturi voluptates quo esse vero veritatis ad consectetur, odit deleniti tempore? Nam sapiente error quaerat repellat praesentium harum pariatur a aperiam nihil cupiditate consectetur provident in odit quos incidunt aliquam omnis minus blanditiis quod, exercitationem alias ex? Vero odio fuga quis aut ipsam non placeat laudantium vel dolor accusantium eveniet illum amet quas voluptas alias, modi neque dolore, nobis a perspiciatis soluta magni. Modi debitis provident mollitia consectetur odio? Rerum optio fugiat amet aspernatur corporis odit totam, dolor obcaecati, quos ratione labore maiores unde dolorum at cupiditate. Aspernatur recusandae labore fugiat repellendus cupiditate minima quod provident eos voluptatum voluptatibus, ab, tempore ipsam, sed voluptas corporis! Aut fugit recusandae voluptas nihil. Tempora, minima officiis.</div>
+            <div class="content">
+                <?php for($i = 0; $i < 5; $i++): ?>
+                <div class="post-card">
+                    <div class="post-header">
+                        <h2 class="post-title">Selamat datang di blog saya! (i = <?= $i ?>)</h2>
+                        <p class="post-meta"><small>Diposkan pada: 09 Nov 2021 | Oleh: Adnan Zaki</small></p>
+                    </div>
+                    <img src="images/wp-<?= rand(1, 3) ?>.jpg" alt="Gambar <?= $i + 1 ?>" class="post-image">  
+                    <div class="post-content">
+                        <?php 
+
+                        include_once 'post-excerpt.php';
+                        echo $content;
+                        
+                        ?>
+                        <a href="#">Read more...</a>
+                    </div>
+                </div>
+                <?php endfor; ?>
+            </div>
             <div class="sidebar"></div>
-            <div class="footer">Copyright 2021 &copy; Adnan Zaki</div>
+            <div class="footer">Copyright &copy; 2021 | Adnan Zaki</div>
         </div>
     </div>
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

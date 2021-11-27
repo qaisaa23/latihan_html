@@ -1,0 +1,35 @@
+/* default - desktop */
+
+:root {
+    --borderWidth: 4px;
+}
+
+.content {
+    background-color: blueviolet;
+    height: 200px;
+    width: calc(25% - var(--borderWidth));
+    float: left;
+    border: solid 2px #000;
+}
+
+/* tablet */
+@media(max-width: 1023px) and (min-width: 600px) {
+    .content {
+        width: calc(50% - var(--borderWidth));
+    }
+
+    #c1 {
+        background-color: greenyellow;
+    }
+}
+
+/* mobile */
+@media(max-width: 599px) {
+    .content {
+        width: calc(100% - var(--borderWidth));
+    }
+
+    #c4 {
+        background-color: crimson;
+    }
+}

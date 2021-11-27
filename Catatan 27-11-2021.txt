@@ -1,0 +1,19 @@
+fullscreen = 100%
+4 kolom = 100/4 = 25%
+....
+2 kolom = 100/2 = 50%
+
+desktop = 25%
+tablet = 50%
+mobile = 100%
+
+breakpoints = patokan ukuran layar
+https://quasar.dev/style/breakpoints
+
+CSS variables
+untuk menyimpan nilai dari suatu property
+Document Object Model = DOM
+
+css media range
+@media (max-width: ....) and (min-width: .....)
+mendeteksi layar yang dimensi layarnya antara ...px dan ...px

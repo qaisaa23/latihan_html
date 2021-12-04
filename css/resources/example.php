@@ -23,7 +23,7 @@
                 <img class="web-logo" src="images/logo-only.png" alt="logo website">
             </div>
             <div class="menu-container">
-                <a href="javascript:void()" class="mobile-menu" onclick="showMenu()"><span class="material-icons">menu</span></a>
+                <a class="mobile-menu cursor-pointer" onclick="showMenu()"><span class="material-icons">menu</span></a>
                 <ul class="navigation" id="main-menu">
                     <li class="menu-item">
                         <a href="#" class="menu-link">Home</a>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media.css">
 </head>
+
 <body>
     <div class="container">
         <div class="menu-mask" onclick="hideMenu()"></div>
@@ -36,28 +38,28 @@
                         <a href="#" class="menu-link">Kontak</a>
                     </li>
                 </ul>
-                
+
             </div>
         </div>
         <div class="content-wrapper">
             <div class="content">
-                <?php for($i = 0; $i < 5; $i++): ?>
-                <div class="post-card">
-                    <div class="post-header">
-                        <h2 class="post-title">Selamat datang di blog saya! (i = <?= $i ?>)</h2>
-                        <p class="post-meta"><small>Diposkan pada: 09 Nov 2021 | Oleh: Adnan Zaki</small></p>
-                    </div>
-                    <img src="images/wp-<?= rand(1, 3) ?>.jpg" alt="Gambar <?= $i + 1 ?>" class="post-image">  
-                    <div class="post-content">
-                        <?php 
+                <?php for ($i = 0; $i < 5; $i++) : ?>
+                    <div class="post-card">
+                        <div class="post-header">
+                            <h2 class="post-title">Selamat datang di blog saya! (i = <?= $i ?>)</h2>
+                            <p class="post-meta"><small>Diposkan pada: 09 Nov 2021 | Oleh: Adnan Zaki</small></p>
+                        </div>
+                        <img src="images/wp-<?= rand(1, 3) ?>.jpg" alt="Gambar <?= $i + 1 ?>" class="post-image">
+                        <div class="post-content">
+                            <?php
 
-                        include_once 'post-excerpt.php';
-                        echo $content;
-                        
-                        ?>
-                        <a href="#">Read more...</a>
+                            include_once 'post-excerpt.php';
+                            echo $content;
+
+                            ?>
+                            <a href="#">Read more...</a>
+                        </div>
                     </div>
-                </div>
                 <?php endfor; ?>
             </div>
             <div class="sidebar"></div>
@@ -67,4 +69,5 @@
 
     <script src="js/main.js"></script>
 </body>
+
 </html>

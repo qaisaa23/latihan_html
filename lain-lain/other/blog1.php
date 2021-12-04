@@ -5,18 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Qais</title>
+    <title>Blog 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="resources/style/animate.min.css">
     <link rel="stylesheet" href="blog1.css">
+    <link rel="stylesheet" href="resources/style/media.css">
 </head>
 
 <body>
     <div class="container">
+        <div class="menu-mask" onclick="hideMenu()"></div>
         <div class="header">
             <div class="logo-container">
-                <img class="web-logo" src="resources/images/logo-only.png" alt="gambar logo">
+                <img class="web-logo" src="resources/images/logo-only.png" alt="logo website">
             </div>
             <div class="menu-container">
-                <ul class="navigation">
+                <a href="javascript:void()" class="mobile-menu" onclick="showMenu()"><span class="material-icons">menu</span></a>
+                <ul class="navigation" id="main-menu">
                     <li class="menu-item">
                         <a href="#" class="menu-link">Home</a>
                     </li>
@@ -30,6 +38,7 @@
                         <a href="#" class="menu-link">Kontak</a>
                     </li>
                 </ul>
+
             </div>
         </div>
         <div class="content-wrapper">
@@ -44,7 +53,7 @@
                         <div class="post-content">
                             <?php
 
-                            include_once 'resources/post-excerpt.php';
+                            include_once 'post-excerpt.php';
                             echo $content;
 
                             ?>
@@ -54,10 +63,11 @@
                 <?php endfor; ?>
             </div>
             <div class="sidebar"></div>
+            <div class="footer">Copyright &copy; 2021 | Adnan Zaki</div>
         </div>
-        <div class="footer">&copy; copyright 2021 | CSS layouting .</div>
-
     </div>
+
+    <script src="resources/js/main.js"></script>
 </body>
 
 </html>

@@ -5,12 +5,10 @@ const showMenu = () => {
     if(menu.style.display === 'block') {
         hideMenu()
     } else {
-        // tampilkan menu dengan animasi
         menu.classList.add('animate__animated', 'animate__fadeInRight')
         menu.style.setProperty('--animate-duration', '0.3s')
         menu.style.display = 'block'
 
-        //show mask layer with animation
         mask[0].classList.add('animate__animated','animate__fadeIn')
         mask[0].style.setProperty('--animate-duration', '0,3s')
         mask[0].style.display = 'block'

@@ -1,0 +1,48 @@
+:root {
+    --borderwidth: 6px;
+    --desk: blue;
+    --bgtablet: yellow;
+    --bgmob: hotpink;
+}
+
+.content {
+    height: 200px;
+    width: calc(25% - var(--borderwidth));
+    background-color: var(--desk);
+    float: left;
+    border: solid 3px #000;
+}
+
+@media(max-width: 1439px) and (min-width: 1024px) {
+    #c2 {
+        background-color: lightsalmon;
+    }
+
+    #c4 {
+        background-color: var(--bgtablet);
+    }
+}
+
+/* untuk mobile */
+@media(max-width: 599px) {
+    .content {
+        width: calc(100% - var(--borderwidth));
+        background-color: var(--bgmob);
+    }
+}
+
+/* untuk tablet */
+@media(max-width: 1023px) and (min-width: 600px) {
+    .content {
+        width: calc(50% - var(--borderwidth));
+        background-color: var(--bgtablet);
+    }
+
+    #c2 {
+        background-color: tomato;
+    }
+
+    #c4 {
+        background-color: grey;
+    }
+}

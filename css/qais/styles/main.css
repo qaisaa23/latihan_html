@@ -143,7 +143,9 @@ body {
     border-radius: 5px;
 }
 
-
+.cursor-pointer {
+    cursor: pointer;
+}
 
 
 

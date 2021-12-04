@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dessert-img/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    font-weight: 600;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    transition: transform 0.5s;
+}
+
+nav ul li:hover {
+    transform: translateY(10px);
+}
+
+nav ul li .page-active:hover {
+    box-sizing: border-box;
+    color: yellow;
+    background-color: transparent;
+    border: 1px solid yellow;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.page-active {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    margin-top: -40px;
+    color: #fff;
+    font-size: 100px;
+}
+
+span {
+    color: yellow;
+}
+
+p {
+    margin-top: -60px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button {
+    width: 180px;
+    outline: 0;
+    font-size: 12px;
+    padding: 12px 0;
+    border-radius: 14px;
+    background: rgb(255, 211, 14);
+    margin-top: 30px;
+    transition: transform 0.5s;
+    border: 1px solid transparent;
+}
+
+button:hover {
+    padding: 12px 0;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid yellow;
+    transform: translateX(20px);
+}
+
+.card,
+.card1-border,
+.card2-border,
+.card3-border,
+.card4-border {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    z-index: 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(dessert-img/anime1.png);
+}
+
+.card2 {
+    z-index: 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(dessert-img/anime2.png);
+}
+
+.card3 {
+    z-index: 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(dessert-img/anime3.png);
+}
+
+.card4 {
+    z-index: 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(dessert-img/anime4.png);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h4 {
+    color: pink;
+    line-height: 0;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.card h5 {
+    color: hotpink;
+    margin-top: -30px;
+}
+
+.card p {
+    padding-top: 40px;
+}
+
+.card1-border,
+.card2-border,
+.card3-border,
+.card4-border {
+    position: absolute;
+    margin-top: -70px;
+    border: 1px solid yellow;
+    z-index: 0;
+}

@@ -25,10 +25,10 @@
                 <img src="img/logo-only.png" alt="Logo Responsive Web" class="web-logo">
             </div>
             <div class="menu-container">
-                <a href="javascript:void" class="mobile-menu" onclick="showMenu()"><span class="material-icons">menu</span></a>
-                <ul class="navigation">
+                <a class="mobile-menu cursor-pointer" onclick="showMenu()"><span class="material-icons">menu</span></a>
+                <ul class="navigation" id="main-menu">
                     <li class="menu-item">
-                        <a href="" class="menu-link">home</a>
+                        <a href="#" class="menu-link">home</a>
                     </li>
                     <li class="menu-item">
                         <a href="" class="menu-link">post</a>

@@ -1,0 +1,8 @@
+.baris {
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.kolom {
+    border: solid 1px #808080;
+}

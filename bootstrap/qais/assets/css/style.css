@@ -1,0 +1,47 @@
+.baris {
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.kolom {
+    border: solid 1px #808080;
+}
+
+.bg-container {
+    height: 360px;
+    margin-top: 2rem;
+    background-color: rosybrown;
+}
+
+.section1 {
+    background-color: white;
+    height: 640px;
+}
+
+.section2 {
+    background-color: rgb(228, 228, 228);
+    height: 640px;
+}
+
+.judul2 {
+    background-color: cyan;
+}
+
+.navbar {
+    height: 75px;
+    box-shadow: 0 5px 9px grey;
+}
+
+.navbar-nav {
+    margin-left: 22rem;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+/* cards wrap */
+.cards-wrapper {
+    background-color: white;
+    width: calc(100% - 8px);
+}

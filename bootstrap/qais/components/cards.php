@@ -20,6 +20,7 @@
         <?php endfor; ?>
     </div>
 
+    <!-- 2nd cards -->
     <div class="container mt-5">
         <div class="row">
             <?php for ($i = 0; $i < 3; $i++) : ?>
@@ -39,3 +40,4 @@
         </div>
     </div>
 </div>
+<!-- end 2nd cards -->

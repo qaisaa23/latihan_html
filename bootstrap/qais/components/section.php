@@ -40,7 +40,7 @@
             <h6 class="text-success text-capitalize">penangan salah kembalian</h6>
             <h2 class="text-capitalize">apa itu tunai, non-tunai, dan promo?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam enim necessitatibus pariatur iste eligendi esse error consectetur reiciendis. Architecto magnam qui nisi iusto aut non nulla enim quo accusamus libero.</p>
-            <button class="btn btn-outline-success">Selengkapnya <i class="bi bi-arrow-right-circle"></i></button>
+            <button class="btn btn-outline-success text-end">Selengkapnya <i class="bi bi-arrow-right-circle"></i></button>
         </div>
         <div class="col-12 col-md-6">
             <img src="../assets/img/gf-transparent.png" alt="Grabfood Img" class="img-fluid">

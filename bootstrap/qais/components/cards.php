@@ -25,7 +25,7 @@
         <div class="row">
             <?php for ($i = 0; $i < 3; $i++) : ?>
                 <div class="col-12 col-md-4">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <div class="card-header">
                             Card header
                         </div>
@@ -39,5 +39,11 @@
             <?php endfor; ?>
         </div>
     </div>
+    <!-- end 2nd cards -->
+
+    <div class="container p-5">
+        <div class="button text-center">
+            <button class="btn btn-outline-success">Selengkapnya <i class="bi bi-arrow-right-circle"></i></button>
+        </div>
+    </div>
 </div>
-<!-- end 2nd cards -->

@@ -1,18 +1,18 @@
-<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #52d9f5;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="../assets/img/img1-min.jpg" alt="gambar logo" class="img-fluid">Logo
+            <img src="https://1.bp.blogspot.com/-P5xmnUWYERE/YG3c40D30pI/AAAAAAAAC6M/KHYum9NgxFg6Rya2lu8h8lLyRtCq8YqegCPcBGAYYCw/w640-h640/GRAB2%2BPNG.png" width="40" height="40" alt="">Logo
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav nav-pills me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <button type="button" class="btn btn-outline-danger">Download Grab now!</button>
+                    <button type="button" class="btn btn-outline-success btn-light">Download Grab now!</button>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>

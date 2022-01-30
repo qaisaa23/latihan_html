@@ -13,19 +13,7 @@
     background-color: rosybrown;
 }
 
-.section1 {
-    background-color: white;
-    height: 640px;
-}
 
-.section2 {
-    background-color: rgb(228, 228, 228);
-    height: 640px;
-}
-
-.judul2 {
-    background-color: cyan;
-}
 
 .navbar {
     height: 75px;
@@ -33,15 +21,39 @@
 }
 
 .navbar-nav {
-    margin-left: 22rem;
+    margin-left: 20rem;
 }
 
 .nav-item {
     padding-right: 20px;
 }
 
+
+/* section1 edit */
+.section1 {
+    background-color: white;
+    height: 540px;
+}
+
 /* cards wrap */
 .cards-wrapper {
+    height: 640px;
+    background-color: rgb(228, 228, 228);
+    width: calc(100% - 1.5rem);
+}
+
+/* section3 edit */
+.section3 {
+    height: 540px;
     background-color: white;
-    width: calc(100% - 8px);
+}
+
+/* section3 edit */
+.h1section3 {
+    padding: 20px;
+}
+
+/* section4 edit */
+.section4 {
+    height: 540px;
 }

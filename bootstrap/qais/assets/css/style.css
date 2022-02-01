@@ -20,10 +20,6 @@
     box-shadow: 0 5px 9px grey;
 }
 
-.navbar-nav {
-    margin-left: 20rem;
-}
-
 .nav-item {
     padding-right: 20px;
 }
@@ -32,19 +28,19 @@
 /* section1 edit */
 .section1 {
     background-color: white;
-    height: 540px;
+    height: max-content;
 }
 
 /* cards wrap */
 .cards-wrapper {
     height: max-content;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(222, 237, 255);
     width: calc(100% - 1.5rem);
 }
 
 /* section3 edit */
 .section3 {
-    height: 540px;
+    height: max-content;
     background-color: white;
 }
 
@@ -55,5 +51,16 @@
 
 /* section4 edit */
 .section4 {
-    height: 540px;
+    height: max-content;
+    background-color: rgb(222, 237, 255);
+}
+
+/* section5 edit */
+.section5 {
+    height: max-content;
+    background-color: white;
+}
+
+.btn-more {
+    margin-bottom: 2rem;
 }

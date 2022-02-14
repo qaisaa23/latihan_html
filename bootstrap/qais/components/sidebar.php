@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
+    <div class="container-fluid bg-dark">
         <a class="navbar-brand" href="#">
             <img src="https://1.bp.blogspot.com/-P5xmnUWYERE/YG3c40D30pI/AAAAAAAAC6M/KHYum9NgxFg6Rya2lu8h8lLyRtCq8YqegCPcBGAYYCw/w640-h640/GRAB2%2BPNG.png" width="40" height="40" alt="">Logo
         </a>
@@ -19,12 +19,12 @@
                         Dropdown
                     </a>
                     <ul class="dropdown-menu" style="background-color: rgb(93, 197, 93);" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item text-light" href="#">Action</a></li>
-                        <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+                        <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                        <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

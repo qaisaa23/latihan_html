@@ -35,7 +35,7 @@
 .cards-wrapper {
     height: max-content;
     background-color: rgb(222, 237, 255);
-    width: calc(100% - 1.5rem);
+    width: calc(100% - 1.7rem);
 }
 
 /* section3 edit */
@@ -63,13 +63,4 @@
 
 .btn-more {
     margin-bottom: 2rem;
-}
-
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(93, 197, 93);
-    color: white;
-    text-align: center;
 }

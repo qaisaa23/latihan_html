@@ -1,8 +1,8 @@
-<div class="container-fluid footer" style="background-color: white;">
+<footer class="container-fluid footer" style="background-color: white;">
     <div class="row text-dark p-5">
         <div class="col">
             <div class="col bg-light text-dark text-start p-3">
-                <p>&copy;Copyright 2022 | Bootstrap 5 Learning</p>
+                <p>&copy;Copyright 2022 | Bootstrap 5</p>
                 <div class="p-2">
                     <a href="#">
                         <img src="https://d33wubrfki0l68.cloudfront.net/ef09cc958c6398a6d7940e29cce9dbeb37145541/a38b2/img/gplay-app-store-badge.svg" alt="" class="img-fluid">
@@ -16,17 +16,17 @@
             </div>
         </div>
         <div class="col">
-            &copy;Copyright 2022 | Bootstrap 5 Learning
+            &copy;Copyright 2022 | Bootstrap 5
         </div>
         <div class="col">
-            &copy;Copyright 2022 | Bootstrap 5 Learning
+            &copy;Copyright 2022 | Bootstrap 5
         </div>
         <div class="col">
             <a href="#" class="text-decoration-none">
                 getbootstrap.com</a>
         </div>
     </div>
-</div>
+</footer>
 <footer class="container-fluid footer">
     <div class="row text-light bg-success text-center p-4">
         <div class="col">

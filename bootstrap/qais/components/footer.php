@@ -1,8 +1,8 @@
 <footer class="container-fluid footer" style="background-color: white;">
     <div class="row text-dark p-5">
         <div class="col">
-            <div class="col bg-light text-dark text-start p-3">
-                <p>&copy;Copyright 2022 | Bootstrap 5</p>
+            <div class="col bg-light text-dark text-start pb-3">
+                <p class="text-start">&copy;Copyright 2022 | Bootstrap 5</p>
                 <div class="p-2">
                     <a href="#">
                         <img src="https://d33wubrfki0l68.cloudfront.net/ef09cc958c6398a6d7940e29cce9dbeb37145541/a38b2/img/gplay-app-store-badge.svg" alt="" class="img-fluid">

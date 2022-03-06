@@ -1,0 +1,66 @@
+.baris {
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.kolom {
+    border: solid 1px #808080;
+}
+
+.bg-container {
+    height: 360px;
+    margin-top: 2rem;
+    background-color: rosybrown;
+}
+
+
+
+.navbar {
+    height: 75px;
+    box-shadow: 0 5px 9px grey;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+
+/* section1 edit */
+.section1 {
+    background-color: white;
+    height: max-content;
+}
+
+/* cards wrap */
+.cards-wrapper {
+    height: max-content;
+    background-color: rgb(222, 237, 255);
+    width: calc(100% - 1.7rem);
+}
+
+/* section3 edit */
+.section3 {
+    height: max-content;
+    background-color: white;
+}
+
+/* section3 edit */
+.h1section3 {
+    padding: 20px;
+}
+
+/* section4 edit */
+.section4 {
+    height: max-content;
+    background-color: rgb(222, 237, 255);
+}
+
+/* section5 edit */
+.section5 {
+    height: max-content;
+    background-color: white;
+}
+
+.btn-more {
+    margin-bottom: 2rem;
+}

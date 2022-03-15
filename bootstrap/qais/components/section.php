@@ -20,8 +20,8 @@
 <!-- section3 -->
 <div class="container-fluid">
     <div class="row section3 pt-5">
-        <div class="col-12 col-md-6">
-            <img src="https://cdn.5minvideo.id/images/kumpulan-logo-grabfood-terbaru/grabfood-merchant-logo.jpg" alt="Grabfood Img" class="img-fluid">
+        <div class="col-12 col-md-6 pb-5 ps-5">
+            <img src="https://img.freepik.com/free-vector/young-people-giving-high-five_52683-30029.jpg?w=740" alt="Grabfood Img" class="img-fluid">
         </div>
         <div class="col-12 col-md-6">
             <h6 class="text-success text-capitalize">kenali grabfood</h6>
@@ -51,7 +51,7 @@
             <button class="btn btn-outline-success text-end">Selengkapnya <i class="bi bi-arrow-right-circle"></i></button>
         </div>
         <div class="col-12 col-sm-12 col-md-6">
-            <img src="https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg?w=740" class="img-fluid float-end" alt="Freepik Img">
+            <img src="https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg?w=740" class="img-fluid float-end" alt="Freepik Img" style="width: 480px;">
         </div>
     </div>
 </div>
@@ -61,7 +61,7 @@
 <div class="container-fluid">
     <div class="row section5 p-5 pl-0">
         <div class="col col-md-6">
-            <img src="https://cdn.5minvideo.id/images/kumpulan-logo-grabfood-terbaru/grabfood-merchant-logo.jpg" alt="Grabfood Img" class="img-fluid">
+            <img src="https://img.freepik.com/free-vector/biotechnology-concept-lab-elements_52683-58738.jpg?w=826" alt="Grabfood Img" class="img-fluid">
         </div>
         <div class="col-12 col-md-6">
             <h2>Pusat Informasi & Koordinasi Grabfood Bekasi</h2>

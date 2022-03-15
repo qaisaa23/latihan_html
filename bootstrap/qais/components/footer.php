@@ -1,6 +1,6 @@
 <footer class="container-fluid footer" style="background-color: white;">
     <div class="row text-dark p-5">
-        <div class="col">
+        <div class="col-12 col-sm-12">
             <div class="col bg-light text-dark text-start pb-3">
                 <p class="text-start">&copy;Copyright 2022 | Bootstrap 5</p>
                 <div class="p-2">

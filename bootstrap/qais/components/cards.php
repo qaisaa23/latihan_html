@@ -2,44 +2,70 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center text-capitalize h1section3">angka pengguna grabfood di wilayah indonesia</h1>
+                <h2 class="text-center text-capitalize h1section3">jangkauan pengunduhan di wakanda</h2>
+                <h5 class="text-center text-capitalize text-muted">update terakhir: jum'at, 11 maret 2022 16:40</h5>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <?php for ($i = 0; $i < 4; $i++) : ?>
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="card q-card">
-                    <div class="card-header">Judul Card</div>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <buttton class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">go !!!</buttton>
-                    </div>
-                </div>
-            </div>
-        <?php endfor; ?>
     </div>
 
-    <!-- 2nd cards -->
-    <div class="container mt-5">
+    <!-- card coba-coba -->
+    <div class="container-fluid-cards mt-5 pt-3">
         <div class="row">
-            <?php for ($i = 0; $i < 3; $i++) : ?>
-                <div class="col-12 col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            Card header
+            <div class="col-lg-3 col-md-6 col-sm cd-blue">
+                <div class="container-fluid-cards">
+                    <div class="card bg-primary text-white" style="width: 100%; height:360px;">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">Total Pengunduhan</h5>
+                            <h6 class="card-subtitle mb-2">Meikarta</h6>
+                            <h2 class="card-text mb-5">1.058.652</h2>
+                            <h6 class="card-subtitle mb-2">Wakanda</h6>
+                            <h2 class="card-text mb-5">5.826.589</h2>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
                     </div>
                 </div>
-            <?php endfor; ?>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm cd-yellow">
+                <div class="container-fluid-cards">
+                    <div class="card text-muted" style="width: 100%; height:360px; background-color:rgb(238, 245, 255);">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted mb-4">User Belum Update</h5>
+                            <h6 class="card-subtitle mb-2">Meikarta</h6>
+                            <h2 class="card-text mb-5 text-warning">119.205</h2>
+                            <h6 class="card-subtitle mb-2">Wakanda</h6>
+                            <h2 class="card-text mb-5 text-warning">417.219</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm cd-red">
+                <div class="container-fluid-cards">
+                    <div class="card text-muted" style="width: 100%; height:360px; background-color:rgb(238, 245, 255);">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted mb-4">Pengguna Aktif</h5>
+                            <h6 class="card-subtitle mb-2">Meikarta</h6>
+                            <h2 class="card-text mb-5 text-success">924.133</h2>
+                            <h6 class="card-subtitle mb-2">Wakanda</h6>
+                            <h2 class="card-text mb-5 text-success">5.258.235</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm cd-green">
+                <div class="container-fluid-cards">
+                    <div class="card text-muted" style="width: 100%; height:360px; background-color:rgb(238, 245, 255);">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted mb-4">Di Uninstall</h5>
+                            <h6 class="card-subtitle mb-2">Meikarta</h6>
+                            <h2 class="card-text mb-5 text-danger">15.314</h2>
+                            <h6 class="card-subtitle mb-2">Wakanda</h6>
+                            <h2 class="card-text mb-5 text-danger">151.135</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- end 2nd cards -->
+    <!-- end coba-coba -->
 
     <div class="container p-5">
         <div class="button text-center">

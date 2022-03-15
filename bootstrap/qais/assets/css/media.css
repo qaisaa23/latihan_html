@@ -1,0 +1,19 @@
+@media(max-width: 992px) {
+    .container-fluid-cards {
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .container-fluid-cards {
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .cb-content {
+        padding-top: 4rem;
+    }
+
+
+}

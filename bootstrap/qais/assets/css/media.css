@@ -12,8 +12,10 @@
 
 @media(max-width: 768px) {
     .cb-content {
-        padding-top: 4rem;
+        padding-top: 2rem;
     }
 
-
+    .card-title {
+        padding-bottom: 2rem;
+    }
 }

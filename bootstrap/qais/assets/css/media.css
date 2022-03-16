@@ -13,9 +13,7 @@
     .container-fluid-cards {
         text-align: center;
     }
-}
 
-@media(max-width: 768px) {
     .cb-content {
         padding-top: 2rem;
     }

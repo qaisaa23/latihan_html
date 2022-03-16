@@ -2,6 +2,11 @@
     .container-fluid-cards {
         margin-top: 2rem;
     }
+
+    .dropdown-menu {
+        background-color: rgb(93, 197, 93);
+        color: black;
+    }
 }
 
 @media(max-width: 768px) {
@@ -27,5 +32,18 @@
 @media(min-width: 992px) {
     .section3 {
         padding-left: 1rem;
+    }
+
+    .dropdown-menu {
+        background-color: #212529;
+    }
+
+    .dropdown-item {
+        color: white;
+    }
+
+    .dropdown-item:hover {
+        background-color: white;
+        color: rgb(93, 197, 93);
     }
 }

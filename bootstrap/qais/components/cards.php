@@ -69,7 +69,7 @@
 
     <div class="container p-5">
         <div class="button text-center">
-            <button class="btn btn-outline-success">Selengkapnya <i class="bi bi-arrow-right"></i></button>
+            <button class="btn btn-outline-success cards-btn">Selengkapnya <i class="bi bi-arrow-right"></i></button>
         </div>
     </div>
 </div>

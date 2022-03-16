@@ -9,24 +9,6 @@
     }
 }
 
-@media(max-width: 768px) {
-    .container-fluid-cards {
-        text-align: center;
-    }
-
-    .cb-content {
-        padding-top: 2rem;
-    }
-
-    .card-title {
-        padding-bottom: 2rem;
-    }
-
-    .button-center {
-        text-align: center;
-    }
-}
-
 @media(min-width: 992px) {
     .section3 {
         padding-left: 1rem;
@@ -43,5 +25,44 @@
     .dropdown-item:hover {
         background-color: white;
         color: rgb(93, 197, 93);
+    }
+}
+
+@media(max-width: 768px) {
+    .container-fluid-cards {
+        text-align: center;
+    }
+
+    .cb-content {
+        padding-top: 2rem;
+    }
+
+    .card-title {
+        padding-bottom: 2rem;
+    }
+
+    .button-center {
+        text-align: center;
+    }
+
+    .section1 .btn,
+    .section3 .btn,
+    .section4 .btn,
+    .section5 .btn {
+        font-size: larger;
+        width: 100%;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .container .button .cards-btn {
+        font-size: larger;
+        width: 100%;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+}
+
+@media(max-width: 576px) {
+    .section1 .btn {
+        font-size: larger;
     }
 }

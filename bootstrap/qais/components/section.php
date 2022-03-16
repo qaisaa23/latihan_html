@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6">
-            <img src="https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg?w=740" class="img-fluid float-end" alt="Freepik Img" style="width: 480px;">
+            <img src="https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg?w=740" class="img-fluid gambar-freepik" alt="Freepik Img" style="width: 480px;">
         </div>
     </div>
 </div>

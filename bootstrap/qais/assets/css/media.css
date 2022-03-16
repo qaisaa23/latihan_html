@@ -26,6 +26,10 @@
         background-color: white;
         color: rgb(93, 197, 93);
     }
+
+    .section4 .gambar-freepik {
+        float: right;
+    }
 }
 
 @media(max-width: 768px) {
@@ -42,6 +46,7 @@
     }
 
     .button-center {
+        padding-bottom: 2rem;
         text-align: center;
     }
 
@@ -64,5 +69,11 @@
 @media(max-width: 576px) {
     .section1 .btn {
         font-size: larger;
+    }
+}
+
+@media(min-width: 576px) {
+    .section4 .gambar-freepik {
+        padding-left: 3rem;
     }
 }

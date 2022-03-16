@@ -18,4 +18,14 @@
     .card-title {
         padding-bottom: 2rem;
     }
+
+    .button-center {
+        text-align: center;
+    }
+}
+
+@media(min-width: 992px) {
+    .section3 {
+        padding-left: 1rem;
+    }
 }

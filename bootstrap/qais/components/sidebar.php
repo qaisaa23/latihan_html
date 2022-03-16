@@ -31,7 +31,7 @@
                     <a class="nav-link disabled">Disabled</a>
                 </li>
                 <li class="nav-item">
-                    <button type="button" class="btn btn-outline-success btn-light">Download Grab now!</button>
+                    <button type="button" class="btn btn-outline-success btn-light"><i class="bi bi-cloud-arrow-down"></i> Download Grab now!</button>
                 </li>
             </ul>
             <form class="d-flex">

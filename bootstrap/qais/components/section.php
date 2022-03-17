@@ -71,3 +71,7 @@
     </div>
 </div>
 <!-- end section5 -->
+
+<!-- section 6 -->
+<?php include 'components/cards2.php' ?>
+<!-- end section 6 -->

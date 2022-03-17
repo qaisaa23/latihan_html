@@ -1,0 +1,49 @@
+<div class="container-fluid pt-5">
+    <div class="row">
+        <div class="col-12 pt-5 pb-3">
+            <h2 class="text-center text-capitalize">berita terkini</h2>
+            <p class="text-center text-capitalize text-muted pt-2">update terakhir: kamis, 17 maret 2022 22.01</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card-group">
+            <div class="card cards2 m-2" style="border-radius: 8px;">
+                <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" style="height: 140px;" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
+                    <p class="card-text h6">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text text-capitalize"><small class="text-muted">17 maret 2022</small></p>
+                </div>
+            </div>
+            <div class="card cards2 m-2" style="border-radius: 8px;">
+                <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" style="height: 140px;" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
+                    <p class="card-text h6">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text text-capitalize"><small class="text-muted">17 maret 2022</small></p>
+                </div>
+            </div>
+            <div class="card cards2 m-2" style="border-radius: 8px;">
+                <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" style="height: 140px;" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
+                    <p class="card-text h6">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text text-capitalize"><small class="text-muted">17 maret 2022</small></p>
+                </div>
+            </div>
+            <div class="card cards2 m-2" style="border-radius: 8px;">
+                <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" style="height: 140px;" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
+                    <p class="card-text h6">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text text-capitalize"><small class="text-muted">17 maret 2022</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row p-5">
+        <div class="button text-center">
+            <button class="btn btn-outline-success cards-btn">Lihat Berita Selengkapnya <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </div>
+</div>

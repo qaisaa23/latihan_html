@@ -1,4 +1,4 @@
-<div class="container-fluid cards-wrapper pt-5">
+<div class="container-fluid cards-wrapper section2 pt-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -63,13 +63,13 @@
                     </div>
                 </div>
             </div>
-            <div class="row p-5">
-                <div class="button-center text-center">
-                    <button class="btn btn-outline-success cards-btn">Selengkapnya <i class="bi bi-arrow-right"></i></button>
-                </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid text-center pt-5 pb-5">
+                <button class="btn btn-outline-success cards-btn">Selengkapnya <i class="bi bi-arrow-right"></i></button>
             </div>
         </div>
     </div>
-</div>
-<!-- end coba-coba -->
+    <!-- end coba-coba -->
+
 </div>

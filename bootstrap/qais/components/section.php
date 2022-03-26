@@ -13,6 +13,15 @@
 </div>
 <!-- end section1 -->
 
+
+<!-- footer -->
+<div class="container-fluid">
+    <div class="row col">
+        <?php include 'components/cards.php' ?>
+    </div>
+</div>
+<!-- end footer -->
+
 <!-- section3 -->
 <div class="container-fluid">
     <div class="row section3 p-5">
@@ -47,7 +56,7 @@
 
 <!-- section5 -->
 <div class="container-fluid">
-    <div class="row section5 p-5 pl-0">
+    <div class="row section5 p-5">
         <div class="col-12 col-md-6">
             <img src="https://img.freepik.com/free-vector/biotechnology-concept-lab-elements_52683-58738.jpg?w=826" alt="Grabfood Img" class="img-fluid">
         </div>
@@ -59,6 +68,14 @@
     </div>
 </div>
 <!-- end section5 -->
+
+<!-- section 6 -->
+<div class="container-fluid">
+    <div class="row col">
+        <?php include 'components/cards2.php' ?>
+    </div>
+</div>
+<!-- end section 6 -->
 
 <!-- footer -->
 <div class="container-fluid">

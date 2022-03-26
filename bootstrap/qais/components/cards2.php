@@ -1,4 +1,4 @@
-<div class="container-fluid pt-5 bg-light">
+<div class="container-fluid section6 bg-light pt-5">
     <div class="row">
         <div class="col-12 pt-5 pb-3">
             <h2 class="text-center text-capitalize">berita terkini</h2>
@@ -56,10 +56,10 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid col">
-        <div class="row p-5">
-            <button class="btn btn-outline-success cards2-btn">Lihat Berita Selengkapnya <i class="bi bi-arrow-right"></i></button>
+        <div class="row">
+            <div class="container-fluid text-center pt-5 pb-5">
+                <button class="btn btn-outline-success cards2-btn">Lihat Berita Selengkapnya <i class="bi bi-arrow-right"></i></button>
+            </div>
         </div>
     </div>
 </div>

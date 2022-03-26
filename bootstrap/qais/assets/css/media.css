@@ -54,8 +54,9 @@
         padding: 1rem 0rem 1rem 0rem;
     }
 
+    .cards-btn,
     .cards2-btn {
-        font-size: larger;
+        font-size: medium;
         width: 100%;
         padding: 1rem 0rem 1rem 0rem;
     }

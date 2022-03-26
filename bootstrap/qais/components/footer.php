@@ -27,9 +27,9 @@
         </div>
     </div>
 </footer>
-<footer class="container-fluid footer">
-    <div class="row text-light bg-success text-center p-4">
-        <div class="col">
+<footer class="container-fluid footer bg-success">
+    <div class="row text-light p-4">
+        <div class="text-center">
             <a href="#" class="text-decoration-none text-light">getbootstrap.com</a>
         </div>
     </div>

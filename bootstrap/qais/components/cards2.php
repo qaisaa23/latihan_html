@@ -1,4 +1,4 @@
-<div class="container-fluid pt-5">
+<div class="container-fluid pt-5 bg-light">
     <div class="row">
         <div class="col-12 pt-5 pb-3">
             <h2 class="text-center text-capitalize">berita terkini</h2>

@@ -21,7 +21,6 @@
   <div class=" container-fluid content-wrapper">
     <?php include 'components/modal.php' ?>
     <?php include 'components/section.php' ?>
-    <?php include 'components/footer.php' ?>
   </div>
 
   <!-- Optional JavaScript; choose one of the two! -->

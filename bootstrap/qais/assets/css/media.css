@@ -45,11 +45,6 @@
         padding-bottom: 2rem;
     }
 
-    .button-center {
-        padding-bottom: 2rem;
-        text-align: center;
-    }
-
     .section1 .btn,
     .section3 .btn,
     .section4 .btn,
@@ -59,7 +54,7 @@
         padding: 1rem 0rem 1rem 0rem;
     }
 
-    .container .button .cards-btn {
+    .cards2-btn {
         font-size: larger;
         width: 100%;
         padding: 1rem 0rem 1rem 0rem;
@@ -69,11 +64,5 @@
 @media(max-width: 576px) {
     .section1 .btn {
         font-size: larger;
-    }
-}
-
-@media(min-width: 576px) {
-    .section4 .gambar-freepik {
-        padding-left: 3rem;
     }
 }

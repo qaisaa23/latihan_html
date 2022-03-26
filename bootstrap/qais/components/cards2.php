@@ -10,7 +10,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 cd-blue">
                 <div class="container-fluid-cards">
                     <div class="card cards2 m-2" style="border-radius: 8px;">
-                        <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" style="height: 140px;" alt="...">
+                        <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
                             <p class="card-text h6">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -22,7 +22,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 cd-yellow">
                 <div class="container-fluid-cards">
                     <div class="card cards2 m-2" style="border-radius: 8px;">
-                        <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" style="height: 140px;" alt="...">
+                        <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
                             <p class="card-text h6">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -34,7 +34,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 cd-red">
                 <div class="container-fluid-cards">
                     <div class="card cards2 m-2" style="border-radius: 8px;">
-                        <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" style="height: 140px;" alt="...">
+                        <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
                             <p class="card-text h6">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -46,7 +46,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 cd-green">
                 <div class="container-fluid-cards">
                     <div class="card cards2 m-2" style="border-radius: 8px;">
-                        <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" style="height: 140px;" alt="...">
+                        <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
                             <p class="card-text h6">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -57,9 +57,9 @@
             </div>
         </div>
     </div>
-    <div class="row p-5">
-        <div class="button text-center">
-            <button class="btn btn-outline-success cards-btn">Lihat Berita Selengkapnya <i class="bi bi-arrow-right"></i></button>
+    <div class="container-fluid col">
+        <div class="row p-5">
+            <button class="btn btn-outline-success cards2-btn">Lihat Berita Selengkapnya <i class="bi bi-arrow-right"></i></button>
         </div>
     </div>
 </div>

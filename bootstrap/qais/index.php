@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/admin.css">
   <link rel="stylesheet" href="assets/css/media.css">
+  <link rel="stylesheet" href="assets/css/tabs.css">
 
   <title></title>
 </head>

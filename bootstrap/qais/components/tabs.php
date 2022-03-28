@@ -14,21 +14,57 @@
         <div class="tab-pane active" id="home">
             <div class="row border g-0 rounded shadow-sm">
                 <p class="ps-1 pt-3">Info yang memuat infografis terkait Covid-19</p>
-                <div class="col p-4">
-                    <h3 class="text-capitalize">info praktikal</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos temporibus mollitia
-                        enim aliquam esse a autem! Veritatis error ut nulla quae neque cum deleniti tempora minima!
-                        Nesciunt deleniti veritatis sunt quos qui fuga itaque, tempore, corrupti quam labore numquam
-                        molestias praesentium perferendis saepe eum impedit doloremque beatae, voluptate in? Earum
-                        non tenetur id praesentium reprehenderit reiciendis consequuntur vitae, ullam ad! Adipisci
-                        unde, iusto quia cum sit, laboriosam tempora temporibus cupiditate autem sunt eligendi.
-                        Ratione expedita distinctio quis nemo fugit dicta. Doloribus asperiores sunt aliquid dolorem
-                        ratione rerum fugit quo voluptatibus?
-                    </p>
+                <div class="col-lg-3 col-md-6 col-sm-12 cd-blue">
+                    <div class="container-fluid-cards ps-2 pe-4">
+                        <div class="card bg-primary text-white" style="width: 100%; height:360px;">
+                            <div class="card-body cb-content">
+                                <h5 class="card-title mb-4">Total Pengunduhan</h5>
+                                <h6 class="card-subtitle mb-2">Meikarta</h6>
+                                <h2 class="card-text mb-5">1.058.652</h2>
+                                <h6 class="card-subtitle mb-2">Wakanda</h6>
+                                <h2 class="card-text mb-5">5.826.589</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-auto">
-                    <img src="assets/images/home.jpg" class="img-thumbnail dimension">
+                <div class="col-lg-3 col-md-6 col-sm-12 cd-yellow">
+                    <div class="container-fluid-cards ps-2 pe-4">
+                        <div class="card text-muted" style="width: 100%; height:360px; background-color:rgb(238, 245, 255);">
+                            <div class="card-body cb-content">
+                                <h5 class="card-title text-muted mb-4">User Belum Update</h5>
+                                <h6 class="card-subtitle mb-2">Meikarta</h6>
+                                <h2 class="card-text mb-5 text-warning">119.205</h2>
+                                <h6 class="card-subtitle mb-2">Wakanda</h6>
+                                <h2 class="card-text mb-5 text-warning">417.219</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 cd-red">
+                    <div class="container-fluid-cards ps-2 pe-4">
+                        <div class="card text-muted" style="width: 100%; height:360px; background-color:rgb(238, 245, 255);">
+                            <div class="card-body cb-content">
+                                <h5 class="card-title text-muted mb-4">Pengguna Aktif</h5>
+                                <h6 class="card-subtitle mb-2">Meikarta</h6>
+                                <h2 class="card-text mb-5 text-success">924.133</h2>
+                                <h6 class="card-subtitle mb-2">Wakanda</h6>
+                                <h2 class="card-text mb-5 text-success">5.258.235</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 cd-green">
+                    <div class="container-fluid-cards ps-2 pe-4">
+                        <div class="card text-muted" style="width: 100%; height:360px; background-color:rgb(238, 245, 255);">
+                            <div class="card-body cb-content">
+                                <h5 class="card-title text-muted mb-4">Di Uninstall</h5>
+                                <h6 class="card-subtitle mb-2">Meikarta</h6>
+                                <h2 class="card-text mb-5 text-danger">15.314</h2>
+                                <h6 class="card-subtitle mb-2">Wakanda</h6>
+                                <h2 class="card-text mb-5 text-danger">151.135</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,8 +83,8 @@
                         ratione rerum fugit quo voluptatibus?
                     </p>
                 </div>
-                <div class="col-auto">
-                    <img src="assets/images/profile.jpg" class="img-thumbnail dimension">
+                <div class="col">
+                    <img src="assets/images/naruto-ichigo-luffy.jpg" class="img-thumbnail dimension">
                 </div>
             </div>
         </div>

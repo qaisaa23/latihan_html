@@ -17,34 +17,34 @@
                 <div class="container tab-content1">
                     <div class="row pb-5">
                         <div class="col-lg-3 col-md-6 p-3">
-                            <div class="card h-100 p-2 bg-danger">
-                                <img src="assets/images/naruto-ichigo-luffy.jpg" class="card-img-top img-thumbnail border-info" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Kabar Vaksinasi COVID-19 Jawa Barat. Coba tambah satu baris lagi deh. Biar jadi empat baris</p>
+                            <div class="card h-100 tb1-card shadow">
+                                <img src="assets/images/kv1.jpg" class="card-img-top border-info img-fluid" alt="Cards Dynamic Tabs">
+                                <div class="card-body bg-danger">
+                                    <p class="card-text text-white">Kabar Vaksinasi COVID-19 Jawa Barat</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 p-3">
-                            <div class="card h-100 p-2 bg-warning">
-                                <img src="assets/images/naruto-ichigo-luffy.jpg" class="card-img-top img-thumbnail border-info" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Update Penanganan COVID-19 di Jawa Barat. ini tiga baris aja cukup.</p>
+                            <div class="card h-100 tb1-card shadow">
+                                <img src="assets/images/kv2.jpg" class="card-img-top border-info img-fluid" alt="Cards Dynamic Tabs">
+                                <div class="card-body bg-primary">
+                                    <p class="card-text text-white">Update Penanganan COVID-19 di Jawa Barat</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 p-3">
-                            <div class="card h-100 p-2 bg-dark text-light">
-                                <img src="assets/images/naruto-ichigo-luffy.jpg" class="card-img-top img-thumbnail border-info" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">PPKM Mikro di Jabar. Ini dua baris.</p>
+                            <div class="card h-100 tb1-card shadow">
+                                <img src="assets/images/kv3.jpg" class="card-img-top border-info img-fluid" alt="Cards Dynamic Tabs">
+                                <div class="card-body bg-success">
+                                    <p class="card-text text-white">PPKM Mikro di Jabar</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 p-3">
-                            <div class="card h-100 p-2 bg-info">
-                                <img src="assets/images/naruto-ichigo-luffy.jpg" class="card-img-top img-thumbnail border-danger" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">PPKM Mikro di Jabar.</p>
+                            <div class="card h-100 tb1-card shadow">
+                                <img src="assets/images/kv4.jpg" class="card-img-top border-dang img-fluid" alt="Cards Dynamic Tabs">
+                                <div class="card-body bg-info">
+                                    <p class="card-text text-white">PPKM Mikro di Jabar</p>
                                 </div>
                             </div>
                         </div>

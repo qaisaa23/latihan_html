@@ -71,3 +71,15 @@
     background-color: lightskyblue;
     font-size: 9px;
 }
+
+.tab-content1 .img-fluid {
+    border-radius: 10px 10px 0 0;
+}
+
+.tab-content1 .tb1-card {
+    border-radius: 12px;
+}
+
+.tab-content1 .card-body {
+    border-radius: 0 0 10px 10px;
+}

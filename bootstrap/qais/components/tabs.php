@@ -14,76 +14,59 @@
         <div class="tab-pane active" id="home">
             <div class="row border g-0 rounded shadow-sm">
                 <p class="ps-1 pt-3">Info yang memuat infografis terkait Covid-19</p>
-                <div class="col-lg-3 col-md-6 col-sm-12 cd-blue">
-                    <div class="container-fluid-cards ps-2 pe-4">
-                        <div class="card bg-primary text-white" style="width: 100%; height:360px;">
-                            <div class="card-body cb-content">
-                                <h5 class="card-title mb-4">Total Pengunduhan</h5>
-                                <h6 class="card-subtitle mb-2">Meikarta</h6>
-                                <h2 class="card-text mb-5">1.058.652</h2>
-                                <h6 class="card-subtitle mb-2">Wakanda</h6>
-                                <h2 class="card-text mb-5">5.826.589</h2>
+                <div class="container">
+                    <div class="row pb-5">
+                        <div class="col-lg-3 col-md-6 p-3">
+                            <div class="card h-100 p-2 bg-danger">
+                                <img src="assets/images/naruto-ichigo-luffy.jpg" class="card-img-top img-thumbnail border-info" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Kabar Vaksinasi COVID-19 Jawa Barat. Coba tambah satu baris lagi deh. Biar jadi empat baris</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 p-3">
+                            <div class="card h-100 p-2 bg-warning">
+                                <img src="assets/images/naruto-ichigo-luffy.jpg" class="card-img-top img-thumbnail border-info" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Update Penanganan COVID-19 di Jawa Barat. ini tiga baris aja cukup.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 p-3">
+                            <div class="card h-100 p-2 bg-dark text-light">
+                                <img src="assets/images/naruto-ichigo-luffy.jpg" class="card-img-top img-thumbnail border-info" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">PPKM Mikro di Jabar. Ini dua baris.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 p-3">
+                            <div class="card h-100 p-2 bg-info">
+                                <img src="assets/images/naruto-ichigo-luffy.jpg" class="card-img-top img-thumbnail border-danger" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">PPKM Mikro di Jabar.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 cd-yellow">
-                    <div class="container-fluid-cards ps-2 pe-4">
-                        <div class="card text-muted" style="width: 100%; height:360px; background-color:rgb(238, 245, 255);">
-                            <div class="card-body cb-content">
-                                <h5 class="card-title text-muted mb-4">User Belum Update</h5>
-                                <h6 class="card-subtitle mb-2">Meikarta</h6>
-                                <h2 class="card-text mb-5 text-warning">119.205</h2>
-                                <h6 class="card-subtitle mb-2">Wakanda</h6>
-                                <h2 class="card-text mb-5 text-warning">417.219</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 cd-red">
-                    <div class="container-fluid-cards ps-2 pe-4">
-                        <div class="card text-muted" style="width: 100%; height:360px; background-color:rgb(238, 245, 255);">
-                            <div class="card-body cb-content">
-                                <h5 class="card-title text-muted mb-4">Pengguna Aktif</h5>
-                                <h6 class="card-subtitle mb-2">Meikarta</h6>
-                                <h2 class="card-text mb-5 text-success">924.133</h2>
-                                <h6 class="card-subtitle mb-2">Wakanda</h6>
-                                <h2 class="card-text mb-5 text-success">5.258.235</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 cd-green">
-                    <div class="container-fluid-cards ps-2 pe-4">
-                        <div class="card text-muted" style="width: 100%; height:360px; background-color:rgb(238, 245, 255);">
-                            <div class="card-body cb-content">
-                                <h5 class="card-title text-muted mb-4">Di Uninstall</h5>
-                                <h6 class="card-subtitle mb-2">Meikarta</h6>
-                                <h2 class="card-text mb-5 text-danger">15.314</h2>
-                                <h6 class="card-subtitle mb-2">Wakanda</h6>
-                                <h2 class="card-text mb-5 text-danger">151.135</h2>
-                            </div>
-                        </div>
+                    <div class="container pb-5 text-center">
+                        <button type="button" class="btn btn-outline-success text-capitalize">
+                            lihat selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+                                <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z" />
+                            </svg></button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="tab-pane" id="profile">
             <div class="row border g-0 rounded shadow-sm">
-                <div class="col p-4">
+                <div class="col col-md-6 col-12 p-4">
                     <h3 class="text-capitalize">dokumen</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos temporibus mollitia
-                        enim aliquam esse a autem! Veritatis error ut nulla quae neque cum deleniti tempora minima!
-                        Nesciunt deleniti veritatis sunt quos qui fuga itaque, tempore, corrupti quam labore numquam
-                        molestias praesentium perferendis saepe eum impedit doloremque beatae, voluptate in? Earum
-                        non tenetur id praesentium reprehenderit reiciendis consequuntur vitae, ullam ad! Adipisci
-                        unde, iusto quia cum sit, laboriosam tempora temporibus cupiditate autem sunt eligendi.
-                        Ratione expedita distinctio quis nemo fugit dicta. Doloribus asperiores sunt aliquid dolorem
-                        ratione rerum fugit quo voluptatibus?
+                    <p class="text-capitalize">
+                        // Unedited component //. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta iusto deleniti quam perferendis aperiam dolorem dolore asperiores non! Aut optio obcaecati repellendus! Vitae dolorum alias qui eos, vel illo illum maiores aliquam fugiat numquam, facere ipsam cupiditate sit beatae? Aperiam, enim. Eaque dolorum reiciendis aliquam voluptatibus magni consequuntur at magnam ab illum exercitationem amet ratione asperiores, vero optio odio quisquam soluta nobis vel maxime iusto nulla voluptate illo? Blanditiis labore nostrum commodi maiores ipsum non, temporibus odit molestiae repellendus neque quas eum dolorum accusamus autem. Ratione, recusandae voluptatibus? Nisi vel eligendi ratione similique quis aspernatur provident impedit eum quaerat ex.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-auto col-md-6 col-12 p-4">
                     <img src="assets/images/naruto-ichigo-luffy.jpg" class="img-thumbnail dimension">
                 </div>
             </div>

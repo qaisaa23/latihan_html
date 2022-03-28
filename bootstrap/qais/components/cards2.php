@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 cd-blue">
                 <div class="container-fluid-cards">
-                    <div class="card cards2 m-2" style="border-radius: 8px;">
+                    <div class="card cards2 h-100 m-2" style="border-radius: 8px;">
                         <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 cd-yellow">
                 <div class="container-fluid-cards">
-                    <div class="card cards2 m-2" style="border-radius: 8px;">
+                    <div class="card cards2 h-100 m-2" style="border-radius: 8px;">
                         <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 cd-red">
                 <div class="container-fluid-cards">
-                    <div class="card cards2 m-2" style="border-radius: 8px;">
+                    <div class="card cards2 h-100 m-2" style="border-radius: 8px;">
                         <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
@@ -45,7 +45,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 cd-green">
                 <div class="container-fluid-cards">
-                    <div class="card cards2 m-2" style="border-radius: 8px;">
+                    <div class="card cards2 h-100 m-2" style="border-radius: 8px;">
                         <img src="https://cdn.pixabay.com/photo/2016/10/16/13/46/mill-1745188_960_720.jpg" class="card-img-top rounded-top" alt="...">
                         <div class="card-body">
                             <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>

@@ -1,4 +1,4 @@
-<div class="container-fluid tabs-container border-info border-top border-bottom bg-light pb-5 pt-3">
+<div class="container-fluid tabs-container border-info border-top border-bottom bg-white pt-3">
     <h3 class="text-bold text-capitalize ps-2 pt-5 pb-5 mb-3">informasi lainnnya</h3>
     <ul class="nav nav-tabs">
         <li class="nav-item">
@@ -10,14 +10,14 @@
                 <i class="bi bi-file-earmark-text"></i> dokumen</a>
         </li>
     </ul>
-    <div class="tab-content mb-5">
+    <div class="tab-content mb-3">
         <div class="tab-pane active" id="home">
-            <div class="row border g-0 rounded shadow-sm">
+            <div class="row g-0 rounded">
                 <p class="ps-1 pt-3">Info yang memuat infografis terkait Covid-19</p>
                 <div class="container tab-content1">
                     <div class="row pb-3">
                         <div class="col-lg-3 col-md-6 p-3">
-                            <div class="card h-100 tb1-card shadow">
+                            <div class="card h-100 tb1-card">
                                 <img src="assets/images/kv1.jpg" class="card-img-top border-info img-fluid" alt="Cards Dynamic Tabs">
                                 <div class="card-body bg-danger">
                                     <p class="card-text text-white">Kabar Vaksinasi COVID-19 Jawa Barat</p>
@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 p-3">
-                            <div class="card h-100 tb1-card shadow">
+                            <div class="card h-100 tb1-card">
                                 <img src="assets/images/kv2.jpg" class="card-img-top border-info img-fluid" alt="Cards Dynamic Tabs">
                                 <div class="card-body bg-primary">
                                     <p class="card-text text-white">Update Penanganan COVID-19 di Jawa Barat</p>
@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 p-3">
-                            <div class="card h-100 tb1-card shadow">
+                            <div class="card h-100 tb1-card">
                                 <img src="assets/images/kv3.jpg" class="card-img-top border-info img-fluid" alt="Cards Dynamic Tabs">
                                 <div class="card-body bg-success">
                                     <p class="card-text text-white">PPKM Mikro di Jabar</p>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 p-3">
-                            <div class="card h-100 tb1-card shadow">
+                            <div class="card h-100 tb1-card">
                                 <img src="assets/images/kv4.jpg" class="card-img-top border-dang img-fluid" alt="Cards Dynamic Tabs">
                                 <div class="card-body bg-info">
                                     <p class="card-text text-white">PPKM Mikro di Jabar</p>
@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="tab-pane" id="profile">
-            <div class="row border g-0 rounded shadow-sm">
+            <div class="row g-0 rounded">
                 <div class="col col-md-6 col-12 p-4">
                     <h3 class="text-capitalize">naruto ichigo luffy <span class="fw-lighter">|</span>
                         <span class="fs-6 fw-lighter">the <span class="fst-italic">"three"</span> favorite characters</span>

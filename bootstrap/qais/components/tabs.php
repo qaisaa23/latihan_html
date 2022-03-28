@@ -14,7 +14,7 @@
         <div class="tab-pane active" id="home">
             <div class="row border g-0 rounded shadow-sm">
                 <p class="ps-1 pt-3">Info yang memuat infografis terkait Covid-19</p>
-                <div class="container">
+                <div class="container tab-content1">
                     <div class="row pb-5">
                         <div class="col-lg-3 col-md-6 p-3">
                             <div class="card h-100 p-2 bg-danger">

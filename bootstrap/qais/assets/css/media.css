@@ -60,6 +60,12 @@
         width: 100%;
         padding: 1rem 0rem 1rem 0rem;
     }
+
+    .tab-content1 .btn {
+        font-size: medium;
+        width: 100%;
+        padding: 1rem 0rem 1rem 0rem;
+    }
 }
 
 @media(max-width: 576px) {

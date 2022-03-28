@@ -61,7 +61,9 @@
         <div class="tab-pane" id="profile">
             <div class="row border g-0 rounded shadow-sm">
                 <div class="col col-md-6 col-12 p-4">
-                    <h3 class="text-capitalize">dokumen</h3>
+                    <h3 class="text-capitalize">naruto ichigo luffy <span class="fw-lighter">|</span>
+                        <span class="fs-6 fw-lighter">the <span class="fst-italic">"three"</span> favorite characters</span>
+                    </h3>
                     <p class="text-capitalize">
                         // Unedited component //. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta iusto deleniti quam perferendis aperiam dolorem dolore asperiores non! Aut optio obcaecati repellendus! Vitae dolorum alias qui eos, vel illo illum maiores aliquam fugiat numquam, facere ipsam cupiditate sit beatae? Aperiam, enim. Eaque dolorum reiciendis aliquam voluptatibus magni consequuntur at magnam ab illum exercitationem amet ratione asperiores, vero optio odio quisquam soluta nobis vel maxime iusto nulla voluptate illo? Blanditiis labore nostrum commodi maiores ipsum non, temporibus odit molestiae repellendus neque quas eum dolorum accusamus autem. Ratione, recusandae voluptatibus? Nisi vel eligendi ratione similique quis aspernatur provident impedit eum quaerat ex.
                     </p>

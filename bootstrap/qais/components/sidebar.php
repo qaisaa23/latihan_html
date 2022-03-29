@@ -8,13 +8,13 @@
         </button>
         <div class="collapse navbar-collapse bg-dark p-3 rounded" id="navbarSupportedContent">
             <ul class="navbar-nav nav-pills me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <li class="nav-item nav-sidebar">
                     <a class="nav-link" aria-current="page" href="#">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-sidebar">
                     <a class="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item nav-sidebar dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Dropdown
                     </a>
@@ -27,10 +27,10 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-sidebar">
                     <a class="nav-link disabled">Disabled</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-sidebar">
                     <button type="button" class="btn btn-outline-success btn-light"><i class="bi bi-cloud-arrow-down"></i> Download Grab now!</button>
                 </li>
             </ul>

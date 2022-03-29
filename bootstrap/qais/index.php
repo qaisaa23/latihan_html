@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/admin.css">
   <link rel="stylesheet" href="assets/css/media.css">
-  <link rel="stylesheet" href="assets/css/tabs.css">
 
   <title class="text-capitalize">belajar bootstap 5 | html,css,bootstrap 5</title>
 </head>

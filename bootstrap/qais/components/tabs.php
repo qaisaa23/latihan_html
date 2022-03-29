@@ -1,17 +1,17 @@
 <div class="container-fluid tabs-container border-info border-top border-bottom bg-white pt-3">
     <h3 class="text-bold text-capitalize ps-2 pt-5 pb-5 mb-3">informasi lainnnya</h3>
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active text-capitalize" data-bs-toggle="tab" href="#home">
-                <i class="bi bi-info-circle"></i> info praktikal</a>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active text-capitalize" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="true">
+                <i class="bi bi-info-circle"></i> info praktikal</button>
         </li>
-        <li class="nav-item">
-            <a class="nav-link text-capitalize" data-bs-toggle="tab" href="#profile">
-                <i class="bi bi-file-earmark-text"></i> dokumen</a>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text-capitalize" id="document-tab" data-bs-toggle="tab" data-bs-target="#document" type="button" role="tab" aria-controls="document" aria-selected="false">
+                <i class="bi bi-file-earmark-text"></i> dokumen</button>
         </li>
     </ul>
     <div class="tab-content mb-3">
-        <div class="tab-pane active" id="home">
+        <div class="tab-pane active" id="info" role="tabpanel" aria-labelledby="info-tab">
             <div class="row g-0 rounded">
                 <p class="ps-1 pt-3">Info yang memuat infografis terkait Covid-19</p>
                 <div class="container tab-content1">
@@ -58,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane" id="profile">
+        <div class="tab-pane" id="document" role="tabpanel" aria-labelledby="document-tab">
             <div class="row g-0 rounded">
                 <div class="col col-md-6 col-12 p-4">
                     <h3 class="text-capitalize">naruto ichigo luffy <span class="fw-lighter">|</span>

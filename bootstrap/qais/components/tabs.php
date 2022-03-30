@@ -16,7 +16,7 @@
                 <p class="ps-1 pt-3">Info yang memuat infografis terkait Covid-19</p>
                 <div class="container tab-content1">
                     <div class="row pb-3">
-                        <div class="col-lg-3 col-md-6 p-3">
+                        <div class="col-xl-3 col-lg-4 col-md-6 p-3">
                             <div class="card h-100 tb1-card">
                                 <img src="assets/images/kv1.jpg" class="card-img-top border-info img-fluid" alt="Cards Dynamic Tabs">
                                 <div class="card-body bg-danger">
@@ -24,7 +24,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 p-3">
+                        <div class="col-xl-3 col-lg-4 col-md-6 p-3">
                             <div class="card h-100 tb1-card">
                                 <img src="assets/images/kv2.jpg" class="card-img-top border-info img-fluid" alt="Cards Dynamic Tabs">
                                 <div class="card-body bg-primary">
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 p-3">
+                        <div class="col-xl-3 col-lg-4 col-md-6 p-3">
                             <div class="card h-100 tb1-card">
                                 <img src="assets/images/kv3.jpg" class="card-img-top border-info img-fluid" alt="Cards Dynamic Tabs">
                                 <div class="card-body bg-success">
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 p-3">
+                        <div class="col-xl-3 col-lg-4 col-md-6 p-3">
                             <div class="card h-100 tb1-card">
                                 <img src="assets/images/kv4.jpg" class="card-img-top border-dang img-fluid" alt="Cards Dynamic Tabs">
                                 <div class="card-body bg-info">

@@ -25,7 +25,7 @@
                 <div class="container-fluid-cards">
                     <div class="card cards2 h-100 m-2" style="border-radius: 8px;">
                         <div class="ratio ratio-16x9">
-                            <img src="assets/images/cards2-img2.jpg" class="card-img-top rounded-top" alt="..." style="object-fit: cover;">
+                            <img src="assets/images/naruto-ichigo-luffy.jpg" class="card-img-top rounded-top" alt="..." style="object-fit: cover;">
                         </div>
                         <div class="card-body">
                             <p class="card-text"><small class="p-border p-1 text-light">Card title</small></p>
